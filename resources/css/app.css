@@ -322,3 +322,17 @@
         text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     }
 }
+
+/* Dark Stats Overview Widget */
+.fi-wi-stats-overview-dark {
+    background: linear-gradient(135deg, #0F243C 0%, #16365C 50%, #1A3A5C 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.fi-wi-stats-overview-dark .fi-section-header-heading {
+    color: #FFFFFF !important;
+}
+
+.fi-wi-stats-overview-dark .fi-section-header-description {
+    color: rgba(255, 255, 255, 0.7) !important;
+}

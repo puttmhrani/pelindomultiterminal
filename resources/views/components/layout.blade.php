@@ -11,7 +11,7 @@
     <link rel="icon" href="/favicon.png" type="image/png">
 </head>
 <body class="antialiased bg-[#EEF5F9] text-slate-800 font-sans md:pr-20 selection:bg-[#0066AE] selection:text-white">
-    
+
     <x-navbar />
 
     <main class="min-h-screen">
