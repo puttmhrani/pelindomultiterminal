@@ -9,6 +9,7 @@ Laravel 13.x corporate website for Pelindo (Indonesian port authority). Public-f
 - **Tailwind CSS 4.x** with custom claymorphism design system (`resources/css/app.css`)
 - **Alpine.js** for frontend interactivity
 - **Pest** for testing (PHPUnit wrapper)
+- **Filament Shield** for role/permission management, **Filament Breezy** for profile pages
 
 ## Commands
 
@@ -111,7 +112,7 @@ Dashboard widgets go in `app/Filament/Widgets/` and are auto-discovered. Example
 ## Gotchas
 
 - `composer test` clears config cache before running tests (important for CI-like behavior)
-- Filament panel uses Amber as primary color, custom gray `#0064AB`
+- Filament panel uses `#0066AE` as primary color, Slate as gray
 - Vite watches `storage/framework/views/` is explicitly ignored
 - `laravel/multiplex` is in `optionalDependencies` - may not be installed
 - Models have no fillable/guarded consistency - check before assuming mass-assignment behavior
