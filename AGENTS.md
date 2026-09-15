@@ -47,11 +47,14 @@ npm run dev       # vite dev server
 - Resources: `app/Filament/Resources/` (8 resources: Articles, Branches, Directors, Documents, MeetingSchedules, Reports, Terminals, Users)
 - Widgets: `app/Filament/Widgets/` (auto-discovered, includes `ResourceStatsOverview` for dashboard stats)
 - Each resource follows Filament 5 pattern: `Resource.php`, `Pages/`, `Schemas/`, `Tables/`
+- Filament admin theme: `resources/css/filament/admin/theme.css`
 
 ### Models (`app/Models/`)
 8 models: Article, Branch, Director, Document, MeetingSchedule, Report, Terminal, User
-- Most are bare Eloquent models (no relationships defined yet)
-- Some use `$guarded = []`, others default `$fillable` behavior
+- Most are bare Eloquent models (no relationships defined, no fillable/guarded)
+- Only Terminal has `$guarded = []`; only Branch has explicit `$fillable`
+- User model uses PHP 8.3 attributes: `#[Fillable([...])]`, `#[Hidden([...])]`
+- No Eloquent relationships exist yet — routes query models directly
 
 ### Routes (`routes/web.php`)
 Public routes only (no API routes). Organized by section:
@@ -72,6 +75,7 @@ Public routes only (no API routes). Organized by section:
 ### Database
 - Migrations in `database/migrations/`
 - Seeders: `DatabaseSeeder`, `BranchSeeder`
+- `DatabaseSeeder` runs `BranchSeeder` + inline seeds for Terminals, Articles, Reports, Directors, Documents, MeetingSchedules
 - Session, queue, cache all use database driver (not Redis)
 - Tests use in-memory SQLite
 
@@ -103,6 +107,7 @@ Dashboard widgets go in `app/Filament/Widgets/` and are auto-discovered. Example
 - Pest with `TestCase` base class
 - `RefreshDatabase` trait is commented out in `tests/Pest.php` - enable per-test if needed
 - `phpunit.xml` sets `DB_DATABASE=:memory:` for test isolation
+- Tests use in-memory SQLite; no external services required
 
 ### Environment
 - `.npmrc`: `ignore-scripts=true`, `audit=true`
@@ -114,6 +119,7 @@ Dashboard widgets go in `app/Filament/Widgets/` and are auto-discovered. Example
 - `composer test` clears config cache before running tests (important for CI-like behavior)
 - Filament panel uses `#0066AE` as primary color, Slate as gray
 - Vite watches `storage/framework/views/` is explicitly ignored
-- `laravel/multiplex` is in `optionalDependencies` - may not be installed
-- Models have no fillable/guarded consistency - check before assuming mass-assignment behavior
-- No CI workflows defined - testing is manual
+- `@laravel/multiplex` is in `optionalDependencies` — may not be installed
+- Models have no fillable/guarded consistency — check before assuming mass-assignment behavior
+- No CI workflows defined — testing is manual
+- `laravel/boost` is in `require-dev` — provides AI agent tooling if needed
