@@ -11,13 +11,12 @@
     <div class="relative z-10 text-start px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mt-16 md:mt-24">
         <!-- Floating Clay Hero Badge -->
         <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/40 shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-white text-xs md:text-sm font-extrabold uppercase tracking-wider mb-6">
-            <span class="w-2.5 h-2.5 rounded-full bg-[#38BDF8] animate-pulse"></span>
             <span>PT PELINDO MULTI TERMINAL</span>
         </div>
 
         <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white mb-6 leading-[1.15] text-shadow tracking-tight">
             Menjadi Pemimpin dalam <br class="hidden sm:block" />
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#38BDF8] via-[#7DD3FC] to-white">Konektivitas Barang</span> di Indonesia
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#38BDF8] to-[#7DD3FC]">Konektivitas Barang</span> di Indonesia
         </h1>
 
         <p class="text-lg sm:text-xl md:text-2xl text-slate-100 mb-10 font-normal text-shadow-sm max-w-3xl leading-relaxed">

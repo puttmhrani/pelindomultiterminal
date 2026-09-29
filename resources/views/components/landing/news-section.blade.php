@@ -7,10 +7,6 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
             <div>
-                <div class="clay-badge mb-4 shadow-sm">
-                    <span class="w-2 h-2 rounded-full bg-[#0066AE] mr-2"></span>
-                    Kabar Terbaru
-                </div>
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F243C] tracking-tight">
                     Berita & Siaran Pers
                 </h2>

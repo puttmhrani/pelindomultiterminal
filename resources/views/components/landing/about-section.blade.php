@@ -28,7 +28,6 @@
             <!-- Right Content -->
             <div class="lg:col-span-7">
                 <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/40 shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-white text-xs md:text-sm font-extrabold uppercase tracking-wider mb-6">
-                    <span class="w-2.5 h-2.5 rounded-full bg-[#38BDF8] animate-pulse"></span>
                     <span>Tentang Kami</span>
                 </div>
 

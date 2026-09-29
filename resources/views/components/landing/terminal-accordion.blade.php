@@ -10,8 +10,7 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-16 md:mb-20">
-            <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/40 shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-white text-xs md:text-sm font-extrabold uppercase tracking-wider mb-4">
-                <span class="w-2.5 h-2.5 rounded-full bg-[#38BDF8] animate-pulse"></span>
+            <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/40 shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-white text-xs md:text-sm font-extrabold uppercase tracking-wider mb-6">
                 <span>Layanan Kami</span>
             </div>
             <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight text-shadow-sm">

@@ -1,37 +1,38 @@
-<footer class="bg-gradient-to-b from-[#0F243C] via-[#0A1A2E] to-[#061220] text-white pt-16 mt-20 font-sans relative overflow-hidden border-t border-white/10 shadow-[0_-15px_30px_rgba(0,0,0,0.15)]">
+<footer class="bg-[#055EAA] text-white pt-16 mt-20 font-sans relative overflow-hidden border-t border-white/10 shadow-[0_-15px_30px_rgba(0,0,0,0.15)]">
     <!-- Decorative subtle ambient glow -->
     <div class="absolute top-0 left-1/4 w-96 h-96 bg-[#0066AE]/15 rounded-full filter blur-3xl pointer-events-none"></div>
     <div class="absolute bottom-0 right-10 w-96 h-96 bg-[#00A3E0]/10 rounded-full filter blur-3xl pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="inline-block p-2 rounded-2xl mb-4">
+            <img src="/white-logo.png" alt="Pelindo Multi Terminal" class="h-20 w-auto">
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-16">
             <!-- Column 1: Info & Customer Care -->
             <div class="md:col-span-4 lg:col-span-3">
-                <div class="inline-block p-2 rounded-2xl shadow-[4px_4px_4px_rgba(0,0,0,0.2),inset_1px_1px_2px_rgba(255,255,255,1)] mb-4">
-                    <img src="/logo.png" alt="Pelindo Multi Terminal" class="h-12 w-auto">
-                </div>
+                
                 <p class="text-slate-300 text-sm font-medium leading-relaxed mb-1">Jl. Lingkar Pelabuhan No. 1,</p>
                 <p class="text-slate-300 text-sm font-medium leading-relaxed mb-3">Belawan, Medan 20411</p>
-                <a href="mailto:multi.terminal@pelindo.co.id" class="text-[#38BDF8] hover:text-white font-semibold text-sm block mb-1 transition-colors">multi.terminal@pelindo.co.id</a>
+                <a href="mailto:multi.terminal@pelindo.co.id" class="text-white hover:text-white font-semibold text-sm block mb-1 transition-colors">multi.terminal@pelindo.co.id</a>
                 <a href="#" class="text-slate-400 hover:text-[#38BDF8] text-xs font-semibold block mb-6 transition-colors">(Pergi ke Google Maps)</a>
 
                 <!-- Customer Care Card (Clay Dark Panel) -->
-                <div class="bg-white/5 backdrop-blur-md rounded-2xl p-4 border border-white/10 shadow-[inset_1px_1px_2px_rgba(255,255,255,0.15),0_4px_12px_rgba(0,0,0,0.2)]">
+                <div class="rounded-2xl p-4">
                     <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-3 flex items-center text-[#38BDF8]">
                         <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                         CUSTOMER CARE PELINDO
                     </h4>
                     <div class="space-y-2 text-xs text-slate-300">
                         <div class="flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-[#38BDF8] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            <svg class="w-4 h-4 mr-2 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                             <span>: <strong>102</strong></span>
                         </div>
                         <div class="flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-[#38BDF8] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                            <svg class="w-4 h-4 mr-2 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
                             <span>: <strong>0811-1552-102</strong> (chat only)</span>
                         </div>
                         <div class="flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-[#38BDF8] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <svg class="w-4 h-4 mr-2 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             <span class="truncate">: customer.care@pelindo.co.id</span>
                         </div>
                     </div>
@@ -41,19 +42,16 @@
             <!-- Column 2: Tautan Berguna -->
             <div class="md:col-span-2">
                 <h3 class="text-base font-extrabold mb-5 text-white tracking-wide flex items-center">
-                    <span class="w-2 h-2 rounded-full bg-[#00A3E0] mr-2"></span>
                     Tautan Berguna
                 </h3>
-                <ul class="space-y-3">
+                <ul class="space-y-2">
                     <li>
                         <a href="#" class="text-slate-300 hover:text-white text-sm font-medium flex items-center group transition-colors">
-                            <span class="w-6 h-6 rounded-full bg-white/5 flex items-center justify-center mr-2 text-[#38BDF8] group-hover:bg-[#0066AE] group-hover:text-white transition-all text-xs">&gt;</span>
                             Disclaimer
                         </a>
                     </li>
                     <li>
                         <a href="#" class="text-slate-300 hover:text-white text-sm font-medium flex items-center group transition-colors">
-                            <span class="w-6 h-6 rounded-full bg-white/5 flex items-center justify-center mr-2 text-[#38BDF8] group-hover:bg-[#0066AE] group-hover:text-white transition-all text-xs">&gt;</span>
                             Privacy Policy
                         </a>
                     </li>
@@ -63,17 +61,15 @@
             <!-- Column 3: Posting Terbaru -->
             <div class="md:col-span-6 lg:col-span-4">
                 <h3 class="text-base font-extrabold mb-5 text-white tracking-wide flex items-center">
-                    <span class="w-2 h-2 rounded-full bg-[#00A3E0] mr-2"></span>
                     Posting Terbaru
                 </h3>
-                <ul class="space-y-3">
+                <ul class="space-y-2">
                     @php
                         $latestPosts = \App\Models\Article::latest('date')->take(4)->get();
                     @endphp
                     @forelse ($latestPosts as $post)
                     <li>
                         <a href="{{ route('media.detail', $post->id) }}" class="text-slate-300 hover:text-white text-sm font-medium flex items-start group transition-colors">
-                            <span class="w-5 h-5 rounded-full bg-white/5 flex-shrink-0 flex items-center justify-center mr-2 text-[#38BDF8] group-hover:bg-[#0066AE] group-hover:text-white transition-all text-xs mt-0.5">&gt;</span> 
                             <span class="line-clamp-2 leading-snug">{{ $post->title }}</span>
                         </a>
                     </li>
@@ -86,7 +82,6 @@
             <!-- Column 4: Newsletter -->
             <div class="md:col-span-12 lg:col-span-3">
                 <h3 class="text-base font-extrabold mb-5 text-white tracking-wide flex items-center">
-                    <span class="w-2 h-2 rounded-full bg-[#00A3E0] mr-2"></span>
                     Newsletter
                 </h3>
                 <p class="text-slate-300 text-sm mb-4 leading-relaxed font-normal">Berlangganan untuk menerima pembaruan artikel dan pengumuman terbaru.</p>
@@ -97,7 +92,7 @@
                                placeholder="Email Anda...">
                     </div>
                     <button type="submit" 
-                            class="clay-btn-primary py-3 px-6 text-sm font-bold w-full">
+                            class="clay-btn-white py-3 px-6 text-sm w-full">
                         Langganan Sekarang
                     </button>
                 </form>
@@ -106,7 +101,7 @@
     </div>
     
     <!-- Bottom Footer (Clay Inset Divider Bar) -->
-    <div class="bg-[#071322] py-8 border-t border-white/5 shadow-[inset_0_4px_12px_rgba(0,0,0,0.3)]">
+    <div class="bg-[#003E7E] py-8 border-t border-white/5 shadow-[inset_0_4px_12px_rgba(0,0,0,0.3)]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="text-xs text-slate-400 text-center md:text-left leading-relaxed">
                 <p>&copy; Copyright <strong>PT Pelindo Multi Terminal</strong>. All Rights Reserved</p>

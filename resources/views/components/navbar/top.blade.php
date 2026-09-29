@@ -3,7 +3,7 @@
      @scroll.window="scrolled = (window.pageYOffset > 20)"
      :class="{ 
          'bg-white/90 backdrop-blur-xl shadow-[0_10px_25px_-5px_rgba(0,102,174,0.12),inset_0_1px_2px_rgba(255,255,255,0.9)] py-3': scrolled, 
-         'bg-transparent py-5': !scrolled 
+         'bg-transparent py-3': !scrolled 
      }"
      class="fixed top-0 w-full z-40 transition-all duration-300 md:pr-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,8 +11,8 @@
             <!-- Logo with tactile clay container when not scrolled or subtle glow -->
             <div class="flex-shrink-0 flex items-center">
                 <a href="{{ route('home') }}" class="group flex items-center transition-transform duration-300 hover:scale-105 active:scale-95">
-                    <div :class="{ 'p-1.5 rounded-2xl shadow-sm': !scrolled, 'p-1': scrolled }" class="transition-all duration-300">
-                        <img src="/logo.png" alt="Pelindo Multi Terminal" class="h-12 md:h-14 w-auto drop-shadow-sm">
+                    <div :class="{ 'px-1.5 rounded-2xl shadow-sm': !scrolled, 'px-1.5': scrolled }" class="transition-all duration-300">
+                        <img :src="scrolled ? '{{ asset('logo.png') }}' : '{{ asset('white-logo.png') }}'" alt="Pelindo Multi Terminal" class="h-12 md:h-14 w-auto drop-shadow-sm">
                     </div>
                 </a>
             </div>
@@ -26,7 +26,7 @@
                            placeholder="{{ __('messages.search_placeholder') }}" 
                            :class="{ 
                                'bg-slate-100/90 text-slate-800 placeholder-slate-400 border-slate-200/80 focus:bg-white focus:border-[#0066AE] shadow-[inset_2px_2px_4px_rgba(0,0,0,0.06),inset_-2px_-2px_4px_rgba(255,255,255,0.9)]': scrolled, 
-                               'bg-white/25 text-white placeholder-white/80 border-white/40 focus:bg-white focus:text-slate-800 focus:placeholder-slate-400 backdrop-blur-md shadow-[inset_1px_1px_3px_rgba(255,255,255,0.4),0_4px_12px_rgba(0,0,0,0.1)]': !scrolled 
+                               'text-white placeholder-white/80 focus:bg-white focus:text-slate-800 focus:placeholder-slate-400 backdrop-blur-md border border-white/30 shadow-[0_4px_12px_rgba(0,0,0,0.1)]': !scrolled 
                            }" 
                            class="border rounded-full py-2 px-4 pr-10 focus:outline-none focus:ring-2 focus:ring-[#0066AE]/30 transition-all duration-300 text-sm w-44 focus:w-60 font-medium">
                     <button type="submit" 
@@ -40,8 +40,8 @@
                 
                 <!-- Location Icon Button -->
                 <button :class="{ 
-                            'text-slate-700 bg-white shadow-[3px_4px_10px_rgba(0,102,174,0.08),-2px_-2px_6px_rgba(255,255,255,0.9)] border border-slate-100': scrolled, 
-                            'text-white bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 shadow-[0_4px_12px_rgba(0,0,0,0.1)]': !scrolled 
+                            'text-slate-700 bg-slate-100 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.07),inset_-2px_-2px_4px_rgba(255,255,255,0.9)] border-slate-200/60': scrolled, 
+                            'text-white backdrop-blur-md border border-white/30 shadow-[0_4px_12px_rgba(0,0,0,0.1)]': !scrolled 
                         }" 
                         class="p-2.5 rounded-full hover:text-[#0066AE] hover:-translate-y-0.5 active:translate-y-0.5 transition-all duration-200 hidden sm:flex items-center justify-center">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,12 +53,12 @@
                 <!-- Language Switch (Clay Pill Container) -->
                 <div :class="{ 
                         'bg-slate-100 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.07),inset_-2px_-2px_4px_rgba(255,255,255,0.9)] border-slate-200/60': scrolled, 
-                        'bg-white/25 backdrop-blur-md shadow-[inset_1px_1px_3px_rgba(255,255,255,0.4),0_4px_10px_rgba(0,0,0,0.1)] border-white/30': !scrolled 
+                        'backdrop-blur-md border border-white/30 shadow-[0_4px_12px_rgba(0,0,0,0.1)]': !scrolled 
                      }" 
                      class="flex items-center rounded-full p-1 border transition-all duration-300">
                     <a href="{{ route('lang.switch', 'id') ?? '#' }}" 
                        :class="{ 'text-slate-600 hover:text-slate-900': scrolled, 'text-white hover:text-white/80': !scrolled }"
-                       class="px-3 py-1 rounded-full text-xs font-extrabold transition-all duration-300 {{ app()->getLocale() == 'id' ? '!clay-btn-primary !text-white shadow-sm scale-105' : '' }}">
+                       class="px-3 py-1 rounded-full text-xs font-extrabold transition-all duration-300 {{ app()->getLocale() == 'id' ? '!clay-btn-primary !text-slate-500 shadow-sm scale-105' : '' }}">
                         ID
                     </a>
                     <a href="{{ route('lang.switch', 'en') ?? '#' }}" 

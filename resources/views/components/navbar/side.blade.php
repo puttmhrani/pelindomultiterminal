@@ -65,7 +65,7 @@
     </div>
 
     <!-- Blue Sidebar Navigation Bar (Always Visible on the right edge) -->
-    <div class="bg-gradient-to-b from-[#0066AE] via-[#005694] to-[#0F243C] w-20 flex flex-col h-full shadow-[-8px_0_25px_rgba(0,0,0,0.18)] relative z-10 border-l border-white/15">
+    <div class="bg-[#055EAA] w-20 flex flex-col h-full shadow-[-8px_0_25px_rgba(0,0,0,0.18)] relative z-10 border-l border-white/15">
         <!-- Menu Items -->
         <div class="flex-1 flex flex-col justify-center overflow-y-auto overflow-x-hidden py-4 px-2 space-y-2">
             @foreach($menus as $menu)
