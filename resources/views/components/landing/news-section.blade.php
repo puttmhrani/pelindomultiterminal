@@ -30,7 +30,7 @@
                     <div class="absolute inset-0 bg-[#0F243C]/15 group-hover:bg-transparent transition-colors duration-500"></div>
                     
                     <!-- Tactile Clay Date Badge -->
-                    <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-[#0066AE] text-xs font-extrabold px-4 py-1.5 rounded-full shadow-[2px_3px_8px_rgba(0,0,0,0.15),inset_1px_1px_2px_rgba(255,255,255,1)] border border-white">
+                    <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-[#0066AE] text-xs font-extrabold px-4 py-1.5 rounded-full shadow-[2px_3px_8px_rgba(0,0,0,0.15)] border border-white">
                         {{ $article->published_at ? \Carbon\Carbon::parse($article->published_at)->format('d M Y') : 'Baru' }}
                     </div>
                 </div>

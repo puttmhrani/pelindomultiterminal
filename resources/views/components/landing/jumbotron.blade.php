@@ -10,7 +10,7 @@
 
     <div class="relative z-10 text-start px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mt-16 md:mt-24">
         <!-- Floating Clay Hero Badge -->
-        <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/40 shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-white text-xs md:text-sm font-extrabold uppercase tracking-wider mb-6">
+        <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/40 text-white text-xs md:text-sm font-extrabold uppercase tracking-wider mb-6">
             <span>PT PELINDO MULTI TERMINAL</span>
         </div>
 

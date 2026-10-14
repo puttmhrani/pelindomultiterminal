@@ -27,7 +27,7 @@
                     <p class="text-base sm:text-lg leading-relaxed">{{ $article->content }}</p>
                     <p class="text-base sm:text-lg leading-relaxed">Jakarta, {{ \Carbon\Carbon::parse($article->date)->translatedFormat('d F Y') }} - PT Pelindo Multi Terminal kembali menegaskan komitmennya dalam memberikan pelayanan prima di seluruh wilayah operasionalnya guna mendorong pertumbuhan logistik nasional.</p>
                     
-                    <div class="bg-[#F0F6FA] p-6 sm:p-8 rounded-3xl border border-white shadow-[inset_2px_2px_4px_rgba(0,102,174,0.06),inset_-2px_-2px_4px_rgba(255,255,255,0.9)] mt-8">
+                    <div class="bg-[#F0F6FA] p-6 sm:p-8 rounded-3xl border border-white shadow-[inset_2px_2px_4px_rgba(0,102,174,0.06)] mt-8">
                         <h4 class="text-sm font-extrabold text-[#0F243C] uppercase tracking-wider mb-2">Informasi Kontak Media:</h4>
                         <p class="text-sm text-slate-700 mb-0 font-medium">
                             <strong>Corporate Secretary</strong><br>

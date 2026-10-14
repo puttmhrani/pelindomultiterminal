@@ -47,8 +47,6 @@
         border-radius: 1.75rem;
         box-shadow:
             8px 12px 28px -4px rgba(5, 94, 170, 0.09),
-            -6px -6px 20px 0px rgba(255, 255, 255, 0.95),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 0.9),
             inset -2px -2px 6px 0px rgba(5, 94, 170, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.85);
     }
@@ -60,8 +58,6 @@
         border-radius: 1.75rem;
         box-shadow:
             8px 12px 28px -4px rgba(5, 94, 170, 0.09),
-            -6px -6px 20px 0px rgba(255, 255, 255, 0.95),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 0.9),
             inset -2px -2px 6px 0px rgba(5, 94, 170, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.85);
         transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -72,8 +68,6 @@
         transform: translateY(-5px);
         box-shadow:
             12px 20px 36px -4px rgba(5, 94, 170, 0.16),
-            -8px -8px 24px 0px rgba(255, 255, 255, 1),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 1),
             inset -2px -2px 8px 0px rgba(5, 94, 170, 0.07);
     }
 
@@ -82,7 +76,6 @@
         transform: translateY(-1px) scale(0.99);
         box-shadow:
             4px 6px 16px -2px rgba(5, 94, 170, 0.1),
-            -4px -4px 12px 0px rgba(255, 255, 255, 0.9),
             inset 3px 3px 6px 0px rgba(5, 94, 170, 0.08);
     }
 
@@ -92,8 +85,6 @@
         border-radius: 1.75rem;
         box-shadow:
             8px 12px 28px -4px rgba(0, 102, 174, 0.08),
-            -6px -6px 20px 0px rgba(255, 255, 255, 0.95),
-            inset 2px 2px 5px 0px rgba(255, 255, 255, 1),
             inset -2px -2px 6px 0px rgba(0, 102, 174, 0.06);
         border: 1px solid rgba(255, 255, 255, 0.9);
     }
@@ -105,8 +96,6 @@
         border-radius: 1.75rem;
         box-shadow:
             8px 14px 30px -4px rgba(0, 82, 140, 0.35),
-            -4px -4px 16px 0px rgba(255, 255, 255, 0.2),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 0.4),
             inset -2px -2px 6px 0px rgba(0, 30, 60, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.25);
     }
@@ -120,8 +109,6 @@
         border-radius: 1.5rem;
         box-shadow:
             0 10px 30px -5px rgba(5, 94, 170, 0.1),
-            0 -2px 10px 0 rgba(255, 255, 255, 0.8),
-            inset 1px 1px 2px rgba(255, 255, 255, 0.9),
             inset -1px -1px 3px rgba(5, 94, 170, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.7);
     }
@@ -134,8 +121,6 @@
         border-radius: 9999px;
         box-shadow:
             0 8px 20px -2px rgba(0, 102, 174, 0.38),
-            -2px -2px 8px 0px rgba(255, 255, 255, 0.3),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 0.45),
             inset -2px -2px 4px 0px rgba(0, 40, 80, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.2);
         transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -151,8 +136,6 @@
         border-radius: 9999px;
         box-shadow:
             0 8px 20px -2px rgba(0, 102, 174, 0.38),
-            -2px -2px 8px 0px rgba(255, 255, 255, 0.3),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 0.45),
             inset -2px -2px 4px 0px rgba(0, 40, 80, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.2);
         transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -165,8 +148,6 @@
         transform: translateY(-3px);
         box-shadow:
             0 12px 26px -2px rgba(0, 102, 174, 0.48),
-            -3px -3px 10px 0px rgba(255, 255, 255, 0.4),
-            inset 2px 2px 5px 0px rgba(255, 255, 255, 0.55),
             inset -2px -2px 5px 0px rgba(0, 40, 80, 0.35);
     }
 
@@ -184,8 +165,6 @@
         border-radius: 9999px;
         box-shadow:
             0 6px 18px -2px rgba(0, 102, 174, 0.12),
-            -3px -3px 10px 0px rgba(255, 255, 255, 0.9),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 0.9),
             inset -2px -2px 4px 0px rgba(0, 102, 174, 0.08);
         border: 1px solid rgba(255, 255, 255, 0.95);
         transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -200,8 +179,6 @@
         color: #00528C;
         box-shadow:
             0 10px 24px -2px rgba(0, 102, 174, 0.18),
-            -4px -4px 14px 0px rgba(255, 255, 255, 1),
-            inset 2px 2px 4px 0px rgba(255, 255, 255, 1),
             inset -2px -2px 5px 0px rgba(0, 102, 174, 0.1);
     }
 
@@ -228,9 +205,7 @@
         background: #F8FCFF;
         color: #00528C;
         box-shadow:
-            0 16px 32px -4px rgba(0, 0, 0, 0.2),
-            -4px -4px 14px 0 rgba(255, 255, 255, 1),
-            inset 2px 2px 4px rgba(255, 255, 255, 1);
+            0 16px 32px -4px rgba(0, 0, 0, 0.2);
     }
 
     .clay-btn-white:active {
@@ -244,8 +219,6 @@
         border-radius: 9999px;
         box-shadow:
             0 8px 20px -2px rgba(255, 107, 74, 0.4),
-            -2px -2px 8px 0 rgba(255, 255, 255, 0.3),
-            inset 2px 2px 4px rgba(255, 255, 255, 0.45),
             inset -2px -2px 4px rgba(160, 40, 15, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.25);
         transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -258,7 +231,7 @@
         transform: translateY(-3px);
         box-shadow:
             0 12px 26px -2px rgba(255, 107, 74, 0.5),
-            inset 2px 2px 5px rgba(255, 255, 255, 0.55);
+            inset 2px 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     /* 7. Clay Inset Form Input */
@@ -267,8 +240,7 @@
         border-radius: 9999px;
         box-shadow:
             inset 3px 3px 6px 0px rgba(0, 70, 120, 0.1),
-            inset -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
-            0 1px 2px 0px rgba(255, 255, 255, 0.5);
+            inset -3px -3px 6px 0px rgba(0, 70, 120, 0.04);
         border: 1px solid rgba(0, 102, 174, 0.12);
         transition: all 0.25s ease;
     }
@@ -279,7 +251,7 @@
         border-color: #0066AE;
         box-shadow:
             inset 2px 2px 5px 0px rgba(0, 102, 174, 0.08),
-            inset -2px -2px 5px 0px rgba(255, 255, 255, 0.9),
+            inset -2px -2px 5px 0px rgba(0, 102, 174, 0.04),
             0 0 0 4px rgba(0, 102, 174, 0.18);
     }
 
@@ -288,7 +260,7 @@
         border-radius: 1.25rem;
         box-shadow:
             inset 3px 3px 6px 0px rgba(0, 70, 120, 0.09),
-            inset -3px -3px 6px 0px rgba(255, 255, 255, 0.9);
+            inset -3px -3px 6px 0px rgba(0, 70, 120, 0.04);
         border: 1px solid rgba(0, 102, 174, 0.12);
         transition: all 0.25s ease;
     }
@@ -314,8 +286,6 @@
         border-radius: 9999px;
         box-shadow:
             3px 5px 12px 0px rgba(0, 102, 174, 0.09),
-            -2px -2px 6px 0px rgba(255, 255, 255, 0.95),
-            inset 1px 1px 2px 0px rgba(255, 255, 255, 1),
             inset -1px -1px 2px 0px rgba(0, 102, 174, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.9);
         display: inline-flex;
@@ -327,7 +297,7 @@
         color: #FFFFFF;
         box-shadow:
             2px 4px 10px 0px rgba(0, 82, 140, 0.3),
-            inset 1px 1px 2px 0px rgba(255, 255, 255, 0.4);
+            inset 1px 1px 2px 0px rgba(0, 30, 60, 0.2);
         border: 1px solid rgba(255, 255, 255, 0.25);
     }
 

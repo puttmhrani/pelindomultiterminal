@@ -7,7 +7,7 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-16 relative z-20">
         <div class="clay-card p-8 sm:p-12 md:p-14 bg-white relative overflow-hidden border-2 border-white">
             <div class="text-center mb-10">
-                <div class="w-16 h-16 bg-[#E8F4FA] rounded-3xl flex items-center justify-center text-[#0066AE] mx-auto mb-4 shadow-[3px_4px_12px_rgba(0,102,174,0.12),inset_1px_1px_2px_rgba(255,255,255,1)] border border-white">
+                <div class="w-16 h-16 bg-[#E8F4FA] rounded-3xl flex items-center justify-center text-[#0066AE] mx-auto mb-4 shadow-[3px_4px_12px_rgba(0,102,174,0.12)] border border-white">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
                 <h2 class="text-2xl sm:text-3xl font-extrabold text-[#0F243C] tracking-tight">Komitmen Manajemen</h2>

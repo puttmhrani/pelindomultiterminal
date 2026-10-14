@@ -17,13 +17,13 @@
          style="display: none;">
          
          <div class="p-6 md:p-8">
-             <div class="flex justify-between items-center mb-8 bg-white p-4 rounded-2xl shadow-[4px_6px_16px_rgba(0,102,174,0.06),-3px_-3px_10px_rgba(255,255,255,0.9)] border border-white">
+             <div class="flex justify-between items-center mb-8 bg-white p-4 rounded-2xl shadow-[4px_6px_16px_rgba(0,102,174,0.06)] border border-white">
                  <div class="flex items-center space-x-3">
                      <span class="w-3 h-8 bg-[#0066AE] rounded-full shadow-sm"></span>
                      <h2 class="text-2xl font-extrabold text-[#0F243C]" x-text="activeMenu"></h2>
                  </div>
                  <button @click="activeMenu = null" 
-                         class="p-2.5 text-slate-400 hover:text-[#0066AE] bg-[#EEF5F9] hover:bg-white rounded-full shadow-[inset_2px_2px_4px_rgba(0,0,0,0.05),-2px_-2px_4px_rgba(255,255,255,0.9)] hover:shadow-[3px_3px_8px_rgba(0,102,174,0.1)] transition-all duration-200 active:scale-90">
+                         class="p-2.5 text-slate-400 hover:text-[#0066AE] bg-[#EEF5F9] hover:bg-white rounded-full shadow-[inset_2px_2px_4px_rgba(0,0,0,0.05)] hover:shadow-[3px_3px_8px_rgba(0,102,174,0.1)] transition-all duration-200 active:scale-90">
                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path>
                      </svg>
@@ -71,10 +71,7 @@
             @foreach($menus as $menu)
             <button @click="activeMenu = (activeMenu === '{{ __($menu->name_key) }}' ? null : '{{ __($menu->name_key) }}')" 
                     class="flex flex-col items-center justify-center py-4 px-1 rounded-2xl text-white transition-all duration-300 w-full group relative focus:outline-none"
-                    :class="{ 
-                        'bg-white text-[#0066AE] shadow-[4px_6px_16px_rgba(0,0,0,0.25),inset_1px_1px_3px_rgba(255,255,255,0.9)] scale-105': activeMenu === '{{ __($menu->name_key) }}', 
-                        'text-white/90 hover:bg-white/15 hover:text-white active:scale-95': activeMenu !== '{{ __($menu->name_key) }}' 
-                    }">
+                    :class="{ 'bg-white text-[#0066AE] shadow-[4px_6px_16px_rgba(0,0,0,0.25)] scale-105': activeMenu === '{{ __($menu->name_key) }}', 'text-white/90 hover:bg-white/15 hover:text-white active:scale-95': activeMenu !== '{{ __($menu->name_key) }}' }">
                 <div class="mb-1 transition-transform duration-300 group-hover:scale-110" :class="{ 'text-[#0066AE]': activeMenu === '{{ __($menu->name_key) }}' }">
                     {!! $menu->icon_svg !!}
                 </div>

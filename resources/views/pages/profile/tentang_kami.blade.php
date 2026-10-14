@@ -19,7 +19,7 @@
                 <p class="text-lg leading-relaxed">
                     PT Pelindo Multi Terminal / SPMT merupakan salah satu Subholding PT Pelabuhan Indonesia (Persero) yang dibentuk pada 1 Oktober 2021.
                 </p>
-                <div class="bg-[#F0F6FA] p-6 sm:p-8 rounded-3xl border border-white shadow-[inset_2px_2px_5px_rgba(0,102,174,0.06),inset_-2px_-2px_5px_rgba(255,255,255,0.9)]">
+                <div class="bg-[#F0F6FA] p-6 sm:p-8 rounded-3xl border border-white shadow-[inset_2px_2px_5px_rgba(0,102,174,0.06)]">
                     <p class="text-slate-800 font-medium leading-relaxed">
                         Pembentukan ini seiring dengan proses integrasi PT Pelabuhan Indonesia (Persero) yang kepemilikan sahamnya sepenuhnya dimiliki oleh Republik Indonesia. Komposisi kepemilikan saham PT Pelindo Multi Terminal adalah <strong>99,99%</strong> dimiliki oleh PT Pelabuhan Indonesia (Persero), dan <strong>0,01%</strong> dimiliki oleh PT Integrasi Logistik Cipta Solusi.
                     </p>

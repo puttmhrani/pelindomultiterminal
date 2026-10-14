@@ -6,7 +6,7 @@
              alt="{{ $article->title }}" 
              class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
         <div class="absolute inset-0 bg-[#0F243C]/10 group-hover:bg-transparent transition-colors duration-500"></div>
-        <div class="absolute top-3.5 left-3.5 bg-white/95 backdrop-blur-md text-[#0066AE] text-xs font-extrabold px-3.5 py-1.5 rounded-full shadow-[2px_3px_8px_rgba(0,0,0,0.12),inset_1px_1px_2px_rgba(255,255,255,1)] border border-white">
+        <div class="absolute top-3.5 left-3.5 bg-white/95 backdrop-blur-md text-[#0066AE] text-xs font-extrabold px-3.5 py-1.5 rounded-full shadow-[2px_3px_8px_rgba(0,0,0,0.12)] border border-white">
             {{ \Carbon\Carbon::parse($article->date)->translatedFormat('d M Y') }}
         </div>
     </div>

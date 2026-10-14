@@ -39,7 +39,7 @@
                     
                     <div class="relative z-10 px-6 sm:px-8 py-8 sm:py-9 flex items-center justify-between">
                         <div class="flex items-center space-x-4">
-                            <span class="w-10 h-10 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center text-white font-extrabold text-sm border border-white/30 shadow-[inset_1px_1px_2px_rgba(255,255,255,0.4)]">
+                            <span class="w-10 h-10 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center text-white font-extrabold text-sm border border-white/30">
                                 0{{ $index + 1 }}
                             </span>
                             <h3 class="text-xl sm:text-2xl font-extrabold text-white tracking-wide drop-shadow-sm">{{ $terminal->name }}</h3>
@@ -62,7 +62,7 @@
                     <p class="text-slate-700 mb-6 text-base sm:text-lg leading-relaxed font-normal">
                         {{ $terminal->description }}
                     </p>
-                    <div class="inline-flex items-center bg-[#E8F4FA] text-[#0066AE] font-bold text-sm px-5 py-2.5 rounded-full shadow-[2px_3px_8px_rgba(0,102,174,0.08),inset_1px_1px_2px_rgba(255,255,255,1)] border border-white/80">
+                    <div class="inline-flex items-center bg-[#E8F4FA] text-[#0066AE] font-bold text-sm px-5 py-2.5 rounded-full shadow-[2px_3px_8px_rgba(0,102,174,0.08)] border border-white/80">
                         <svg class="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                         </svg>

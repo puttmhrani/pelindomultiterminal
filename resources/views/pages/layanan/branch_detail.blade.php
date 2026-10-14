@@ -23,7 +23,7 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <div class="space-y-6">
-                    <div class="flex items-center p-6 bg-[#F0F6FA] rounded-3xl border border-white shadow-[inset_2px_2px_4px_rgba(0,102,174,0.06),inset_-2px_-2px_4px_rgba(255,255,255,0.9)]">
+                    <div class="flex items-center p-6 bg-[#F0F6FA] rounded-3xl border border-white shadow-[inset_2px_2px_4px_rgba(0,102,174,0.06)]">
                         <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mr-6 text-[#0066AE] shadow-sm flex-shrink-0">
                             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                         </div>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     
-                    <div class="flex items-center p-6 bg-[#F0F6FA] rounded-3xl border border-white shadow-[inset_2px_2px_4px_rgba(0,102,174,0.06),inset_-2px_-2px_4px_rgba(255,255,255,0.9)]">
+                    <div class="flex items-center p-6 bg-[#F0F6FA] rounded-3xl border border-white shadow-[inset_2px_2px_4px_rgba(0,102,174,0.06)]">
                         <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mr-6 text-[#0066AE] shadow-sm flex-shrink-0">
                             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
                         </div>
